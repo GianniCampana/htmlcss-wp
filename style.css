@@ -1,0 +1,222 @@
+
+
+
+/* header */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    margin-left: 15%;
+    width: 250px;
+    height: 90px;
+    border-right: gray solid 1px;
+    margin-bottom: 50px;
+}
+
+
+.logo{
+    width: 80%;
+    height: 90px;
+}
+
+
+.contenutotitolo{
+    
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    margin-top: 40px;
+    background-image: url(img/banner.jpg);
+    border-radius: 15px 15px 15px 15px;
+    background-position: center;
+
+    
+}
+
+.paragrafo12{
+    border-radius: 15px 15px 15px 15px;
+    background-color: rgba(0, 0, 0, 0.200);
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+ 
+.paragrafo1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20%;
+    margin-left: 5%;
+    margin-bottom: 0px;
+    font-size: 180%;
+    
+}
+
+.paragrafo2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-left: 5%;
+   
+}
+
+
+.lista{
+    margin-left: 10.5%;
+}
+
+.lista li{
+
+    display: inline;
+    margin-left: 30px;
+    color: rgb(120, 125, 130);
+}
+
+.lista li:hover{
+    color: magenta;
+}
+
+.banner{
+  width: 100%;
+  height: 90%;
+}
+
+/* main */
+
+main{
+    
+    width: 70%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+
+.secondomain,
+.terzomain,
+.quartomain{
+    float: left;
+}
+
+
+
+.primomain{
+    
+    width: 100%;
+    margin: auto;
+}
+
+.secondomain{
+    
+    width: 20%;
+    height: 450px;
+    margin-top: 10px;
+    margin-right: 50px;
+    
+    
+}
+
+.imggirl{
+    
+    border-radius: 15px 15px 15px 15px;
+    width: 100%;
+    height: 40%;
+    background-image: url(img/img-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.backgroundgirl{
+    
+    border-radius: 15px 15px 15px 15px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.200);
+   
+    
+}
+
+.terzomain{
+    
+    width: 50%;
+    height: 450px;
+    margin-top: 10px;
+    
+}
+
+.imgboy{
+    border-radius: 15px 15px 15px 15px;
+     width: 100%;
+     height: 40%;
+     background-image: url(img/banner-2.jpg);
+     background-position: center;
+     background-size: cover;
+
+}
+
+.backgroundboy{
+    background-color: rgba(0, 0, 0, 0.200);
+    border-radius: 15px 15px 15px 15px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.quartomain{
+    
+    width: 20%;
+    height: 450px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 0%; 
+}
+
+
+
+.imgpeople{
+    background-image: url(img/img-3.jpg);
+    border-radius: 15px 15px 15px 15px;
+    width: 100%;
+    height: 40%;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.backgroundpeople{
+    background-color: rgba(0, 0, 0, 0.200);
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+
+}
+
+.titoli,
+.paragrafi{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(163, 163, 163);
+}
+
+.titoli{
+    color: black;
+}
+
+
+.divfooter{
+    
+    width: 70%;
+    height: 50px;
+    margin-top: 38%;
+    margin-left: 15%;
+}
+
+.ultimoP{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+span{
+    color: red;
+}
